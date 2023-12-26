@@ -1,0 +1,79 @@
+/* * {
+    border: 1px solid red;
+} */
+
+:root {
+    --bs-font1: 'Cookie', cursive;
+    --bs-font2: 'Open Sans', sans-serif;
+}
+
+.font1 {
+    font-family: var(--bs-font1);
+}
+
+.font2 {
+    font-family: var(--bs-font2);
+}
+
+.carousel-inner,
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-button {
+    width: 40vw;
+}
+
+.bg-check {
+    background: linear-gradient(rgba(76, 76, 76, 0.767), rgba(59, 59, 59, 0.863)), url(../images/bgfoodicon.png)no-repeat center fixed;
+    height: 392vh;
+    background-size: cover;
+}
+
+.imgacard {
+    width: 79vw;
+}
+
+.bg-all {
+    background: url(../images/wallrepeat.png);
+}
+
+.address-bg {
+    background: linear-gradient(rgba(21, 21, 21, 0.767), rgba(19, 19, 19, 0.863)), url(../images/bgfoodicon.png);
+    height: 110vh;
+    background-size: cover;
+}
+
+.address-pd {
+    padding-top: 190px;
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-button {
+        width: 20vw;
+    }
+    .bg-check {
+        background: linear-gradient(rgba(76, 76, 76, 0.767), rgba(59, 59, 59, 0.863)), url(../images/bgfoodicon.png)no-repeat center fixed;
+        height: 115vh;
+        background-size: cover;
+    }
+    .address-bg {
+        background: linear-gradient(rgba(21, 21, 21, 0.767), rgba(19, 19, 19, 0.863)), url(../images/bgfoodicon.png);
+        height: 80vh;
+        background-size: cover;
+    }
+    .address-pd {
+        padding-top: 120px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .bg-check {
+        background: linear-gradient(rgba(76, 76, 76, 0.767), rgba(59, 59, 59, 0.863)), url(../images/bgfoodicon.png)no-repeat center fixed;
+        height: 95vh;
+        background-size: cover;
+    }
+    .address-pd {
+        padding-top: 190px;
+    }
+}
