@@ -1,0 +1,62 @@
+/* * {
+    border: 1px solid red;
+} */
+
+:root {
+    --bs-font1: 'Noto Sans', sans-serif;
+    --bs-font2: 'Noto Sans NKo Unjoined', sans-serif;
+}
+
+.font1 {
+    font-family: var(--bs-font1);
+}
+
+.font2 {
+    font-family: var(--bs-font2);
+}
+
+#hero {
+    background: url(../image/hero-2-bg.png) no-repeat center;
+    height: 95vh;
+    background-size: cover;
+}
+
+.text-green {
+    color: rgb(28, 225, 172);
+}
+
+.bg-green {
+    background-color: rgb(28, 225, 172);
+}
+
+.bg-yellow {
+    background-color: rgb(255, 240, 196);
+}
+
+.hero-2 {
+    width: 75vh;
+}
+
+.sub-bg {
+    background: linear-gradient(rgba(52, 58, 64, 0.945), rgba(52, 58, 64, 0.945)), url(../image/bg-1.jpg) no-repeat center;
+    height: 40vh;
+    background-size: cover;
+}
+
+.about-bg {
+    background: url(../image/footer-light-bg.png) no-repeat center;
+    height: 50vh;
+    background-size: cover;
+}
+
+
+/* .sub-input {
+    width: 70vw;
+}
+
+.sub-input {
+    margin-right: -64.8px;
+} */
+
+
+/* inear-gradient(rgba(52, 58, 64, 0.945), rgba(52, 58, 64, 0.945)), */
