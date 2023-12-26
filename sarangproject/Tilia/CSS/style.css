@@ -1,0 +1,82 @@
+/* * {
+    border: 1px solid red;
+} */
+
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+.header-logo {
+    width: 50%;
+}
+
+.green {
+    background: rgb(87, 149, 129);
+}
+
+.green-text {
+    color: rgb(87, 149, 129);
+    ;
+}
+
+.our-img {
+    width: 32%;
+}
+
+.wedding-bg {
+    background: linear-gradient(rgba(35, 34, 34, 0.285), rgba(16, 14, 14, 0.559)), url(../images/contact-page.jpg) no-repeat center fixed;
+    height: 120vh;
+    background-size: cover;
+}
+
+.fa-ring,
+.fa-portrait,
+.fa-vest-patches,
+.fa-film {
+    border: 1px solid rgb(87, 149, 129);
+    width: 15%;
+}
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-instagram-square {
+    color: rgb(87, 149, 129);
+}
+
+.about-bg {
+    background: linear-gradient(rgba(35, 34, 34, 0.171), rgba(16, 14, 14, 0.559)), url(../images/img-about1.jpg) no-repeat center fixed;
+    height: 80vh;
+    background-size: cover;
+}
+
+.quotation {
+    width: 5vw;
+}
+
+.port-button {
+    width: 55%;
+}
+
+.contact-bg {
+    background: linear-gradient(rgba(35, 34, 34, 0.283), rgba(16, 14, 14, 0.393)), url(../images/portfolio1-page.jpg) no-repeat center fixed;
+    height: 91.5vh;
+    background-size: cover;
+}
+
+.contact-insta {
+    width: 11.5vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .wedding-bg {
+        background: linear-gradient(rgba(35, 34, 34, 0.285), rgba(16, 14, 14, 0.559)), url(../images/contact-page.jpg) no-repeat center fixed;
+        height: 50vh;
+        background-size: cover;
+    }
+    .port-button {
+        width: 21%;
+    }
+    .port-button {
+        width: 25%;
+    }
+}
