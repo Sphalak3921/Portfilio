@@ -1,0 +1,116 @@
+:root {
+    --bs-font1: 'Oswald', sans-serif;
+    --bs-font2: 'Poppins', sans-serif;
+}
+
+.oswald {
+    font-family: var(--bs-font1);
+}
+
+.poppins {
+    font-family: var(--bs-font2);
+}
+
+.carousel-item img {
+    height: 70vh !important;
+    object-fit: cover;
+}
+
+#Delivery {
+    padding-top: 15vh;
+}
+
+.back1 {
+    background: url(../images/bg-1.jpg) !important;
+    height: 80vh;
+}
+
+.auto-pd {
+    padding-top: 210px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.tex-auto {
+    padding-top: 200px;
+}
+
+.poster-pad {
+    padding-top: 250px;
+}
+
+.flash-bg {
+    background: url(../images/deal-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.news-bg {
+    background: url(../images/newsletter-bg.jpg) no-repeat center;
+    height: 65vh;
+    background-size: cover;
+    width: 97%;
+}
+
+.news-h3 {
+    padding-top: 110px;
+}
+
+.news-email {
+    width: 75vw;
+}
+
+.news-input {
+    margin-right: -64.8px;
+}
+
+
+/* * {
+    border: 1px solid red;
+} */
+
+@media only screen and (min-width: 360px) {
+    .carousel-item img {
+        height: 100vh !important;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .auto-pd {
+        padding-top: 40px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .back1 {
+        background: url(../images/bg-1.jpg) !important;
+        height: 50vh;
+    }
+    .tex-auto {
+        padding-top: 100px;
+    }
+    .poster-pad {
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #Delivery {
+        padding-top: 30vh;
+    }
+    .poster-pad {
+        padding-top: 120px;
+    }
+    .news-email {
+        width: 40vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .poster-pad {
+        padding-top: 250px;
+    }
+    .news-email {
+        width: 35vw;
+    }
+}

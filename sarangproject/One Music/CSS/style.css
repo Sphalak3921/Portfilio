@@ -1,0 +1,139 @@
+        * {
+            font-family: font-family: 'Archivo Narrow', sans-serif;
+        }
+        
+        .back {
+            background: url(../image/bg-1.jpg);
+            ss height: 100vh;
+            background: cover !important;
+        }
+        
+        .bg1 {
+            background: linear-gradient(rgba(35, 34, 34, 0.607), rgba(16, 14, 14, 0.461)), url(../image/bg-1.jpg) no-repeat center;
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        .latest {
+            letter-spacing: 7px;
+        }
+        
+        .latests {
+            letter-spacing: 12px;
+            word-spacing: 10px;
+        }
+        
+        .lates {
+            letter-spacing: 5.5px;
+        }
+        
+        .fa-angle-double-right {
+            margin: 6px 0px 0px 5px;
+        }
+        
+        .bbb {
+            background: linear-gradient(rgba(35, 34, 34, 0.767), rgba(16, 14, 14, 0.863)), url(../image/bg-4.jpg)no-repeat fixed;
+            background-size: cover;
+            /* height: 100vh; */
+            width: 98.9vw;
+        }
+        
+        .aaa {
+            padding: 20px 0px;
+        }
+        
+        .ccc {
+            width: 46vh;
+            height: 45vh;
+        }
+        
+        .ddd {
+            padding: 8px 0px 15px 0px;
+        }
+        
+        .qqq {
+            height: 17.5vh;
+        }
+        
+        .www {
+            padding: 90px 0px;
+        }
+        
+        .lll {
+            width: 55px;
+        }
+        
+        .eee {
+            background-color: #F0F4F5;
+        }
+        
+        .ttt {
+            background: linear-gradient(rgba(35, 34, 34, 0.767), rgba(16, 14, 14, 0.863)), url(../image/a3.jpg)no-repeat fixed;
+            background-size: cover;
+            height: 95vh;
+            padding: 10px 10px;
+        }
+        
+        .jjj {
+            padding-top: 150px;
+        }
+        
+        .kk,
+        @media only screen and (max-width: 360px) {
+            .bg1 {
+                background: linear-gradient(rgba(35, 34, 34, 0.607), rgba(16, 14, 14, 0.461)), url(../image/bg-1.jpg) no-repeat center;
+                background-size: cover;
+                height: 80vh;
+                width: 100vw;
+            }
+            /* .nam {
+                width: 100vw;
+            } */
+            .bbb {
+                background: linear-gradient(rgba(35, 34, 34, 0.767), rgba(16, 14, 14, 0.863)), url(../image/bg-4.jpg)no-repeat fixed;
+                background-size: cover;
+                /* height: 100vh; */
+                width: 100vw;
+                padding: 10px 10px;
+            }
+            .qqq {
+                width: 45vh;
+            }
+            .ccc {
+                width: 45vh;
+                height: 45vh;
+            }
+            .sss {
+                padding: 10px 0px 0px 0px;
+            }
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .ccc {
+                width: 33vw;
+                height: ;
+            }
+            .sss {
+                padding: 0px 0px 0px 0px;
+            }
+        }
+        
+        @media only screen and (max-width: 320px) {
+            .ccc {
+                width: 90vw;
+                height: ;
+            }
+            .sss {
+                padding: 0px 0px 0px 0px;
+            }
+            .gg {
+                text-align: center;
+            }
+            .bbb {
+                background: linear-gradient(rgba(35, 34, 34, 0.767), rgba(16, 14, 14, 0.863)), url(../image/bg-4.jpg)no-repeat fixed;
+                background-size: cover;
+                /* height: 100vh; */
+                width: 100vw;
+            }
+        }
